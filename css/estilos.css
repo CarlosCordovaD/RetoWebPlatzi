@@ -1,0 +1,109 @@
+body{
+    font-family: 'Open Sans', sans-serif;;
+    background-color: hsl(257, 40%, 49%);
+    background-image: url("../images/bg-mobile.svg");
+    background-size: 110%;
+    color: white;
+}
+header{
+    display: flex;
+    text-align: left;   
+    padding: 1em 0; 
+}
+.hero {
+    margin: 18vw 0;
+}
+header img{
+    width: calc(1em + 30vh);
+}
+.hero__imagen {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+.hero__imagen img {
+    width: 100%;
+}
+.hero__info-content {
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+}
+.btn-huddle{
+    color: rgb(12, 12, 12);
+    background-color: white;
+    border-radius: 150px;
+    padding: 1em 5em;
+    border: none;
+    margin: 1em 0;
+    font-size: 1.2em;
+    font-weight: 700;
+}
+.btn-huddle:hover{
+    -webkit-box-shadow: -7px 10px 32px -16px rgba(0,0,0,0.75);
+    -moz-box-shadow: -7px 10px 32px -16px rgba(0,0,0,0.75);
+    box-shadow: -7px 10px 32px -16px rgba(0,0,0,0.75);
+}
+h1{
+    font-family: 'Poppins', sans-serif;
+    font-size:  calc(1em + 3.5vw);
+}
+p {
+    font-size: calc(1.5em + 1vw);
+}
+.footer {
+    display: flex;
+    justify-content: center;   
+    margin: 1em 0;
+}
+.footer div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2em;
+    border: 1px solid white;
+    border-radius: 50%;
+    width: 2.5em;
+    height: 2.5em;
+    margin-right: .5em;
+}
+.footer div:nth-of-type(3){
+    margin-right: 0;
+}
+.footer div:hover {
+    background-color: white;
+    color: rgb(12, 12, 12);;
+}
+
+@media screen and (min-width: 1440px){
+    .hero {
+        display: flex;
+        width: 90%;
+        margin: 8vw auto;
+    }
+    .hero__imagen{
+        width: 50%;  
+        justify-content: center; 
+    }
+    .hero__info{
+        width: 50%;
+        
+    }
+    .hero__info-content {
+        text-align: left;
+        width: 90%;
+        margin: 0 auto;
+    }
+    p{
+        font-size: calc(.5em + 1vw);
+    }
+    h1 {
+        font-size: 3.5vw;
+    }
+    .footer {
+        width: 90%;
+       justify-content: flex-end;   
+        margin: 2em auto;
+    }
+    
+}
