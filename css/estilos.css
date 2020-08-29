@@ -43,13 +43,14 @@ header img{
     -webkit-box-shadow: -7px 10px 32px -16px rgba(0,0,0,0.75);
     -moz-box-shadow: -7px 10px 32px -16px rgba(0,0,0,0.75);
     box-shadow: -7px 10px 32px -16px rgba(0,0,0,0.75);
+    cursor: pointer;
 }
 h1{
     font-family: 'Poppins', sans-serif;
-    font-size:  calc(1em + 3.5vw);
+    font-size:  calc(1em + 3.4vw);
 }
 p {
-    font-size: calc(1.5em + 1vw);
+    font-size: calc(.9em + 1vw);
 }
 .footer {
     display: flex;
@@ -72,14 +73,18 @@ p {
 }
 .footer div:hover {
     background-color: white;
-    color: rgb(12, 12, 12);;
+    color: rgb(12, 12, 12);
+    cursor: pointer;
 }
 
 @media screen and (min-width: 1440px){
+    header {
+        width: 90%;
+    }
     .hero {
         display: flex;
         width: 90%;
-        margin: 8vw auto;
+        margin: 4vw auto;
     }
     .hero__imagen{
         width: 50%;  
@@ -95,7 +100,7 @@ p {
         margin: 0 auto;
     }
     p{
-        font-size: calc(.5em + 1vw);
+        font-size: calc(.4em + 1vw);
     }
     h1 {
         font-size: 3.5vw;
